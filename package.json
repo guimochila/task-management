@@ -73,6 +73,6 @@
     "testEnvironment": "node"
   },
   "lint-staged": {
-    "src/*.{js,ts}": "lint"
+    "*.{js,ts}": ["npm run lint", "npm run format"]
   }
 }
